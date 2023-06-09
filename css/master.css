@@ -1,0 +1,251 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--lg--: 'Playfair Display', serif;
+--sm--: 'Poppins', sans-serif;
+--min-color: #5fcf80;
+}
+body{
+    font-family: var(--sm--);
+}
+/*start navbar*/
+.navbar{
+    position: fixed;
+    z-index: 1000;
+}
+.navbar-brand {
+   color: var(--min-color);
+   font-weight: 700;
+   
+}
+.navbar-brand:hover{
+    color: var(--min-color);
+}
+.btn-belal{
+    background: rgb(95, 207, 128);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+    display: inline-block
+}
+.btn-belal:hover{
+    background: rgb(95, 207, 128);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+    display: inline-block
+}
+.nav-link{
+    color: #666;
+}
+.nav-item{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #282828;
+}
+.nav-item .active,
+.nav-item a:hover{
+    color: var(--min-color);
+}
+
+/*end navbar*/
+
+/*start hrader*/
+#home{
+   background-image: url(../imges/home/hero-bg.jpg);
+   height: 80vh;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+.header h1{
+    color: #fff;
+    font-family: var(--sm--);
+}
+.header p{
+    color: #fff;
+    font-family: var(--sm--);
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.btn-outline-success{
+    border:2px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+ span{
+    padding-left: 2px;
+    font-family: sans-serif;
+    color: #666;
+}
+.about {
+    font-size: 19px;
+    font-family: var(--sm--);
+    color: #666;
+}
+
+/*end hrader*/
+
+/*start courses*/
+#courses{
+    background-color: #ddd;
+    padding-left: 50px;
+
+}
+#courses p{
+  font-size: 20px;
+}
+#courses h1{
+    color: var(--min-color);
+    font-size: 48px;
+   
+   
+}
+/*end courses*/
+
+/*start trainers*/
+  
+.trainers{
+    padding-left: 35px;
+    font-family: var(--sm--);
+    font-size: 19px;
+    background-color: #5fcf80;
+}
+.trainers-i{
+   margin: auto;
+   font-size: 100px;
+}
+.card-text{
+    font-family: var(--sm--);
+    text-align: center;
+    color: #666;
+}
+.card-title{
+    font-size: 22px;
+    font-family: var(--sm--);
+    text-align: center;
+   
+}
+
+/*end trainers*/
+
+/*start events*/
+
+.box-icon{
+    font-size: 20px;
+    font-family: var(--sm--);
+}
+.box-icon i{
+    border: 1px solid #eef0ef;
+    width: 100%;
+    padding-left: 10px;
+}
+.box-icon i:hover{
+    border: 1px solid #5fcf80;
+    cursor: pointer;
+    
+}
+.box-icon span:hover{
+    color: #5fcf80;
+
+}
+/*end events*/
+
+
+/*pricing*/
+.btn-and-span span{
+  margin-left: 70px;
+}
+
+.card-text-2{
+    font-family: var(--lg--);
+}
+
+.img-i-span img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.belal{
+    margin-left: 50px;
+}
+/*end pricing*/
+
+
+
+/*start contact*/
+
+.card-title-3{
+    font-family: var(--lg--);
+}
+
+.card-text-3{
+    color: #666;
+    font-size: 15px;
+}
+
+.card-body i{
+    color: #666;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.card-body i:hover{
+    color: #5fcf80;
+}
+/*end contact*/
+
+/*start footer*/
+.ppp{
+    color: #666;
+}
+footer{
+    background-color: #ddd;
+}
+footer h1{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.linkes-footer a{
+    color: #666;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.linkes-footer a:hover{
+    color: var(--min-color);
+}
+ input{
+    border: 50px;
+}
+/*end footer*/
+
+.i-p i{
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid #5fcf80 ;
+    border-radius: 50%;
+    background-color: #5fcf80;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.i-p i:hover{
+    background-color: blue;
+}
+
